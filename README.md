@@ -29,10 +29,14 @@ AdaBoost
  
 -	The accuracy score is low at 50, and it goes up the maximum score at 100 and 150. Then, the score drops at 200, and it does not change anymore when the n_estimator goes up.
 -	The optimal n_estimators are 100 and 150 because they both have the highest accuracy score. 
+
+
 Gradient Boost
  
 -	The accuracy score keeps changing when the n_estimator changes.
 -	The optimal n_estimator is 350 because it has the highest accuracy score.
+
+
 XGB Model
  
 -	The accuracy goes to the maximum at n_estimator 100, and then it drops. The score goes up and down, but it cannot hit the highest score like when n_estimator = 1000.
